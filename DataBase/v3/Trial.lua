@@ -32,5 +32,6 @@ local TrialKeys = {
  ["o9lkmoczijzre6ebpy0klcaxlixdjk9t"] = "896a7511-5ecd-11f0-8374-806e6f6e6963", -- 1275627504698396672 / 30d / 21.01.2026
  ["66Dnj5Mn5uYaqpCnLZ4KoSbPe9oUMGjn"] = "95f3eae9217d5ba9bee7f5c19434b7bfb1bb7ea14aad60d50d4ea4256427334b", -- 471882472607449088 / 30d / 23.01.2026
  ["mmYczyFBiNqdBZWPeAZLGVvtfDSLJeuc"] = "0ecc4dc0-01c8-11ec-ba73-806e6f6e6963", -- 1285980259518382156 / 7d / 31.12.2025
+ ["oBZgfgkZPnkUkR86W0PsHA7ebPyVVCXn"] = "dd04bb155c83c470bc7bd4784a914e3cf0c91efc4b9c3272568d44743fed80dd", -- 1266515070993563771 / 30d / 24.01.2026
 }
 return TrialKeys;
