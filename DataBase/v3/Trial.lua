@@ -34,5 +34,6 @@ local TrialKeys = {
  ["OG5FbgN8lpFSHOrk2cneMHAXGFMOkgRb"] = "ea33f262b60051a97e1a9551ac8429622c4a8b5046acf39b351cb6225625843a", -- 333433122639052801 / 30d / 25.01.2026
  ["5VLxTRqzTVKFPNLwF4y2yNAud194Txgw"] = "67c0110a139f0ef482c5a73547056846e4a1c70fab5c1f4751072833b18a7140", -- 1177931819556032515 / 30d / 26.01.2026
  ["ulH4cAR0WKBCkZ1oTqCjLjuue0jslkJk"] = "loadstring(game:HttpGet('https://pastebin.com/raw/h9JpYewK'))()", -- 1416140945912758303 / 30d / 26.01.2026
+ ["t7rjsfrxdthl79lc64bec2dkugzqb6ql"] = "d91bb6d1-2e0c-11f0-992c-806e6f6e6963", -- 269921272232673280 / 31d / 28.01.2026
 }
 return TrialKeys;
