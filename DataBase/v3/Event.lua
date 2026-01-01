@@ -11,5 +11,6 @@ local EventKeys = {
  ["fp9kpQ8r8lNArmRFSJ4iAoopayc6cvwE"] = "0cf61748-5f05-11f0-9b77-806e6f6e6963", -- 1270943340451594251 / lifetime
  ["Oe8gI9w1MuT3baE9LmdvX7mUdPxw0KwG"] = "db9b7ce900b0fdd62faa81a404eef62961dfa1cbca959c9578824823ade56709", -- 562324137540976661 / 30d / 25.01.2026
  ["LgVFNXaOpoHh8ZCgKPgx8wGY5dvFwfmw"] = "c3810e94-1378-11f0-8f29-806e6f6e6963", -- 562324137540976661 / 30d / 12.01.2026
+ ["nni1bvvk6759737b24z4vmbfkfwb2r1j"] = "412491ed-c2cf-11f0-8d0e-806e6f6e6963", -- 1078008876131156060 / lifetime
 }
 return EventKeys;
