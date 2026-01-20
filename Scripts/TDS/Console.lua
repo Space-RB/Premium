@@ -1,3 +1,5 @@
+-- [[ OUTDATED 20.01.2026 11:48 PM ]]
+
 local CoreGui = game:GetService("CoreGui")
 local Players = game:GetService("Players")
 local UserInputService = game:GetService("UserInputService")
