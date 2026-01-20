@@ -10,4 +10,4 @@ https://funpay.com/users/6897346/
 https://robloxcheatz.com/product?id=e4d3c8eb-9dfb-473b-9b1d-10979d35cfd1&ref=space
 ]]
 
-loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/2b2da55d02a1a08a"))()
+--loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/2b2da55d02a1a08a"))()
