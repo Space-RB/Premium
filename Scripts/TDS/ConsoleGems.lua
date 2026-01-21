@@ -96,7 +96,7 @@ local TitleText = Instance.new("TextLabel", TitleBar)
 TitleText.Size = UDim2.new(1, -50, 1, 0)
 TitleText.Position = UDim2.new(0, 12, 0, 0)
 TitleText.BackgroundTransparency = 1
-TitleText.Text = "TDS Farmer <font color='#8B00FF'>V2</font>"
+TitleText.Text = "TDS Farmer | <font color='#8B00FF'>SPACE HUB</font> | .gg/spacerb"
 TitleText.RichText = true
 TitleText.TextColor3 = Color3.new(1,1,1)
 TitleText.TextSize = 16
