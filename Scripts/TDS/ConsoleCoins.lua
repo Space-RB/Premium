@@ -152,7 +152,7 @@ _G.sendWebhook = function(received, current)
     end)
 
     local payload = {
-        ["username"] = "TDS Farmer",
+        ["username"] = "TDS Farmer | .gg/spacerb",
         ["avatar_url"] = "https://cdn-icons-png.flaticon.com/512/4708/4708820.png",
         ["embeds"] = {{
             ["title"] = "💰 MONEY UPDATE - TDS",
@@ -190,7 +190,7 @@ _G.sendWebhook = function(received, current)
                 }
             },
             ["footer"] = {
-                ["text"] = "TDS Farmer V2 • " .. localDate .. " • Сегодня, в " .. footerTime
+                ["text"] = ".gg/spacerb • " .. localDate .. " • Сегодня, в " .. footerTime
             }
         }}
     }
