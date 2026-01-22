@@ -19,6 +19,6 @@ local TrialKeys = {
  ["e46ztesn3f7whwg8qcd2pc6erjudi1t5"] = "c7c36768b71e9ecc15bcf47d8e3198ac44f3b75df8df59761a3f3f068a1fd2ce", -- 1302718793109209128 / 30d / 16.02.2026
  ["ps781fw107kd8on9jufjbpgvv23tu5gc"] = "ff0ac27961cd0a4f6516d26d4142e020fbf94b468e80b66b7d4fe8c6aa8331ce", -- 1069391365668081684 / 10d / 27.01.2026
  ["cfy0c9i7290tljl1wz2ks69yjou7q15u"] = "f03c8b01422bc12478f95db2b88c0e89a12f6017d458e6bb5b7b25b4359d91e3", -- 427515815181418499 / 7d / 27.01.2026
- ["oamktoviqb7ym609lnlfupdwr0pdpmyo"] = "only your HWID", -- 802218451417825334 / 7d / 29.01.2026
+ ["oamktoviqb7ym609lnlfupdwr0pdpmyo"] = "75e221e055eb3b886eb1e1cbd180b6f00e42bc075f4d53", -- 802218451417825334 / 7d / 29.01.2026
 }
 return TrialKeys;
