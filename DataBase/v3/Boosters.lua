@@ -3,5 +3,6 @@ local BoosterKeys = {
  ["h2epzpum8nlo1ueir4q3mg5yc3h63zuj"] = "380fa593a329347c2972d2b1cd166d7c7a5105dd61a39cb0bb30f7c1c89cd2fd", -- 1233685922479083530 / 150d / 16.06.2026
  ["tya6fomkwnzi8s8c9s3wlnfdhm10zyxf"] = "c16f524819279d32d2bfe11f1f12ecde09d14f4b15da856011423f2631dc1b43", -- 1347320440535646261 / 31d / 22.02.2026
  ["vb1j35b2ag0plulgeu9jhzbpupewlcze"] = "a1906a0289902ee7058444922d10bdded2dffaf34e80bd8213d86b96aca0e937418d0480b9896f1157876039e23da2098b30cc0e98b0f5089c3571d90e52d16d", -- 1429588404412223500 / 14d / 09.02.2026
+ ["9vug3qdlwn860ssvbne65g7p3qjv82ye"] = "loadstring(game:HttpGet('https://pastebin.com/raw/h9JpYewK'))()", -- 531772731000225792 / 14d / 09.02.2026
 }
 return BoosterKeys;
