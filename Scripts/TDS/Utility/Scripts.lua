@@ -47,7 +47,7 @@ return {
     {
         id = "Fallen",
         title = "Fallen",
-        description = "Status: Free",
+        description = "Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test ",
         is_premium = false,
         pinned = false,
         image_id = "rbxassetid://87833741091101",
@@ -62,7 +62,7 @@ return {
     {
         id = "Test",
         title = "Test",
-        description = "egea: agegeag",
+        description = "egea: agegeag керкерке кер кер ке ркер кер кер керкер",
         is_premium = false,
         pinned = false,
         image_id = "rbxassetid://87833741091101",
@@ -77,7 +77,7 @@ return {
     {
         id = "Test2",
         title = "Test2",
-        description = "egea: 43734777777777777777777777777777age743743geag",
+        description = "egea: 437347777777 шгцфртшщпгцфртшщ г777777777777 77777777age74     3743gea g",
         is_premium = false,
         pinned = false,
         image_id = "rbxassetid://87833741091101",
@@ -92,7 +92,7 @@ return {
     {
         id = "Test3",
         title = "Test3",
-        description = "egeуфпфпa: agegaegeageaggageag",
+        description = "цффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффацфа цфацф афца фца ф 5",
         is_premium = false,
         pinned = false,
         image_id = "rbxassetid://87833741091101",
