@@ -58,5 +58,50 @@ return {
             map = "Fallen Kingdom",
             mode = "Normal"
         }
-    }
+    },
+    {
+        id = "Test",
+        title = "Test",
+        description = "egea: agegeag",
+        is_premium = false,
+        pinned = false,
+        image_id = "rbxassetid://87833741091101",
+        script_url = "",
+        details = {
+            lvl = 25,
+            towers = {"Archer", "Sword Master"},
+            map = "Fallen Kingdom",
+            mode = "Normal"
+        }
+    },
+    {
+        id = "Test2",
+        title = "Test2",
+        description = "egea: 43734777777777777777777777777777age743743geag",
+        is_premium = false,
+        pinned = false,
+        image_id = "rbxassetid://87833741091101",
+        script_url = "",
+        details = {
+            lvl = 25,
+            towers = {"Archer", "Sword Master"},
+            map = "Fallen Kingdom",
+            mode = "Normal"
+        }
+    },
+    {
+        id = "Test3",
+        title = "Test3",
+        description = "egeуфпфпa: agegaegeageaggageag",
+        is_premium = false,
+        pinned = false,
+        image_id = "rbxassetid://87833741091101",
+        script_url = "",
+        details = {
+            lvl = 25,
+            towers = {"Archer", "Sword Master"},
+            map = "Fallen Kingdom",
+            mode = "Normal"
+        }
+    },
 }
