@@ -1,8 +1,8 @@
 return {
     {
         id = "Macro",
-        title = "TDS Macro",
-        description = "Status: Premium",
+        title = "Macro Recorder",
+        description = "Recording your game then you can play it.",
         is_premium = true,
         pinned = true,
         image_id = "rbxassetid://87833741091101",
@@ -15,9 +15,9 @@ return {
         }
     },
     {
-        id = "Frost",
-        title = "Hardcore",
-        description = "Status: Premium",
+        id = "AutoGems",
+        title = "Auto Gems",
+        description = "Hardcore Strat to AFK Grind",
         is_premium = true,
         pinned = false,
         image_id = "rbxassetid://87833741091101",
@@ -30,17 +30,17 @@ return {
         }
     },
     {
-        id = "Winter",
-        title = "Winter",
-        description = "Status: Free",
-        is_premium = false,
+        id = "AutoMoney",
+        title = "Auto Money",
+        description = "Pizza Party Strat to AFK Grind",
+        is_premium = true,
         pinned = true,
         image_id = "rbxassetid://87833741091101",
         script_url = "",
         details = {
             lvl = 30,
-            towers = {"Snowman", "Blizzard Mage"},
-            map = "Frozen Valley",
+            towers = {"Trapper", "Shotgunner"},
+            map = "Pizza Party",
             mode = "Normal"
         }
     },
@@ -57,66 +57,6 @@ return {
             towers = {"Archer", "Sword Master"},
             map = "Fallen Kingdom",
             mode = "Normal"
-        }
-    },
-    {
-        id = "Molten",
-        title = "Molten",
-        description = "Status: Free",
-        is_premium = false,
-        pinned = false,
-        image_id = "rbxassetid://87833741091101",
-        script_url = "",
-        details = {
-            lvl = 40,
-            towers = {"Pyromancer", "Inferno Mage"},
-            map = "Molten Core",
-            mode = "Hard"
-        }
-    },
-    {
-        id = "Basic",
-        title = "Basic",
-        description = "Status: Free",
-        is_premium = false,
-        pinned = false,
-        image_id = "rbxassetid://87833741091101",
-        script_url = "",
-        details = {
-            lvl = 1,
-            towers = {"Soldier", "Sniper"},
-            map = "Training Camp",
-            mode = "Normal"
-        }
-    },
-    {
-        id = "Hardcore",
-        title = "Hardcore",
-        description = "Status: Free",
-        is_premium = false,
-        pinned = false,
-        image_id = "rbxassetid://87833741091101",
-        script_url = "",
-        details = {
-            lvl = 60,
-            towers = {"Commando", "Rocket Trooper"},
-            map = "Desert Storm",
-            mode = "Hardcore"
-        }
-    },
-    {
-        id = "Pizza Party",
-        title = "Pizza Party",
-        description = "Status: Free",
-        is_premium = false,
-        pinned = false,
-        image_id = "rbxassetid://87833741091101",
-        script_url = "",
-        details = {
-            lvl = 20,
-            towers = {"Chef", "Delivery Bot"},
-            map = "Pizza Palace",
-            mode = "Party"
         }
     }
 }
