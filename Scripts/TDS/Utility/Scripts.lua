@@ -2,7 +2,7 @@ return {
     {
         id = "Macro",
         title = "Macro Recorder",
-        description = "Recording your game then you can play it.",
+        description = "Recording your game.",
         is_premium = true,
         pinned = true,
         image_id = "rbxassetid://87833741091101",
@@ -34,7 +34,7 @@ return {
         title = "Auto Money",
         description = "Pizza Party Strat to AFK Grind",
         is_premium = true,
-        pinned = true,
+        pinned = false,
         image_id = "rbxassetid://87833741091101",
         script_url = "",
         details = {
