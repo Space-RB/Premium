@@ -6,7 +6,7 @@ loadstring(game:HttpGet('https://pastebin.com/raw/h9JpYewK'))()", -- 96202739268
  ["WqpTdJ72hk9anz8Deb07zOE73zNpSOcg"] = "loadstring(game:HttpGet('https://pastebin.com/raw/h9JpYewK'))()", -- 562324137540976661 / lifetime
  ["yoTxQH2Me4lsjb6GoCOBMrs4vGEH8j8K"] = "65668642-9bd6-11f0-8908-806e6f6e6963", -- 932674742887022592 / lifetime
  ["VfAlYi4vai6xsyiTFAXmhFhz5K9ILxn2"] = "1b417d33-c883-11ef-8221-806e6f6e6963", -- 1338207090086379693 / 90d / 13.03.2026
- ["TJEhD6w4SMWAxqFFFDNJBWER4NrfbIHL"] = "48644900-e3da-11f0-9e58-806e6f6e6963", -- 1064982220441407578 / lifetime
+ ["TJEhD6w4SMWAxqFFFDNJBWER4NrfbIHL"] = "a4dc9744-3014-11ec-90a8-806e6f6e6963", -- 1064982220441407578 / lifetime
  ["GuNLBi7pVLz3ahka4EnEanQErFChPeMs"] = "d832d8bc-df29-11ef-9ae4-806e6f6e6963", -- 859126933370699816 / lifetime
  ["fp9kpQ8r8lNArmRFSJ4iAoopayc6cvwE"] = "0cf61748-5f05-11f0-9b77-806e6f6e6963", -- 1270943340451594251 / lifetime
 }
