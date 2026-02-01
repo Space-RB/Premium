@@ -12,7 +12,7 @@ return {
             towers = {"Pyromancer", "Ace Pilot"},
             map = "Crossroads",
             mode = "Hardcore",
-            difficult = "1"
+            difficult = "N/A"
         }
     }
 }
