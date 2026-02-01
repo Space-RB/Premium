@@ -3,7 +3,7 @@ local EventKeys = {
  ["nni1bvvk6759737b24z4vmbfkfwb2r1j"] = "2CA0159D0ED57707DA52F06F7024D0", -- 1078008876131156060 / lifetime
  ["oOq8sk2h6h2y2qQRy6RT9EZmJEVgek4Q"] = "lua
 loadstring(game:HttpGet('https://pastebin.com/raw/h9JpYewK'))()", -- 962027392686239774 / lifetime
- ["WqpTdJ72hk9anz8Deb07zOE73zNpSOcg"] = "loadstring(game:HttpGet('https://pastebin.com/raw/h9JpYewK'))()", -- 562324137540976661 / lifetime
+ ["WqpTdJ72hk9anz8Deb07zOE73zNpSOcg"] = "6865bd494e534c101a82ba6ec8e0a8e7f95af06a18d53ed91601872fe4c5f9ec", -- 562324137540976661 / lifetime
  ["yoTxQH2Me4lsjb6GoCOBMrs4vGEH8j8K"] = "65668642-9bd6-11f0-8908-806e6f6e6963", -- 932674742887022592 / lifetime
  ["VfAlYi4vai6xsyiTFAXmhFhz5K9ILxn2"] = "1b417d33-c883-11ef-8221-806e6f6e6963", -- 1338207090086379693 / 90d / 13.03.2026
  ["TJEhD6w4SMWAxqFFFDNJBWER4NrfbIHL"] = "a4dc9744-3014-11ec-90a8-806e6f6e6963", -- 1064982220441407578 / lifetime
