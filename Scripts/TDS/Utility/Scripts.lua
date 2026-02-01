@@ -51,7 +51,7 @@ return {
         id = "Test",
         title = "Test",
         description = " Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test",
-        is_premium = true,
+        is_premium = false,
         pinned = false,
         image_id = "rbxassetid://87833741091101",
         script_url = "",
