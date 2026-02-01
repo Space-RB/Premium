@@ -7,6 +7,9 @@ local LocalPlayer = Players.LocalPlayer
 if TDS then
     getgenv().GameName = "TDS";
 end
+if beta then
+    getgenv().BetaTest = true;
+end
 if game then
     getgenv().GameName = game;
 end
