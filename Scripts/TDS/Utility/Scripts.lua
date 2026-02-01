@@ -2,7 +2,7 @@ return {
     {
         id = "AutoGems",
         title = "Auto Gems",
-        description = "Hardcore Strat to AFK Grind",
+        description = "Hardcore Strat to AFK Grind Gems",
         is_premium = true,
         pinned = false,
         image_id = "rbxassetid://87833741091101",
