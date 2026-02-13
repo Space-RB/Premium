@@ -9,7 +9,7 @@
 </div>
 
 <p align="center">
-  <img src="https://github.com/Space-RB/Premium/blob/main/loadstring%20logo.png" alt="Space Hub Logo" width="1080"/>
+  <img src="https://github.com/Space-RB/Premium/blob/main/loadstring%20logo.png" alt="Space Hub Logo" width="900"/>
 </p>
 
 <br>
