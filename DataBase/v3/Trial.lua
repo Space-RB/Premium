@@ -18,6 +18,6 @@ local TrialKeys = {
  ["dbh34lr6ragpyksf4gicl5oyiuj65gbb"] = "cd9ee018394405d36e84e96f60840c1281cc297702b3174960bf36ee72373f7a", -- 1200994718054625360 / 7d / 22.02.2026
  ["81bnl6wxqjy9evbnd2v3rebj825q7zf5"] = "54c3248090eef08ebf3bae12a85bf37978eab8952f45d5eea2252639e0386c9b", -- 1255225301521268848 / 30d / 17.03.2026
  ["ms5savorfwocjnhk09eijjfpqdtc8cb3"] = "bd182030b23d0367bb5b0f1a44dedab6931ef2d9ff85bb7d99d43ada68ab7c9a", -- 1227276720982331444 / 7d / 22.02.2026
- ["0eunbuekirl0x6j12ey0digekk9cxcrb"] = "1d308a518af4df0182696489d6811bb5cb4c21acdb20fe72cb6b6548e963cf34", -- 802537758446452747 / 7d / 22.02.2026
+ ["0eunbuekirl0x6j12ey0digekk9cxcrb"] = "Please follow these steps:", -- 802537758446452747 / 7d / 22.02.2026
 }
 return TrialKeys;
