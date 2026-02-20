@@ -556,14 +556,14 @@ webhookBox.FocusLost:Connect(function(enterPressed)
     if enterPressed then _G.Webhook = webhookBox.Text printToConsole("Webhook URL saved", "Success") end
 end)
 
-local dragging
-local dragInput
-local dragStart
-local startPos
+local dragging = false
+local dragInput = nil
+local dragStart = nil
+local startPos = nil
 
 local function update(input)
     local delta = input.Position - dragStart
-    MainFrame.Position = UDim2.new(
+    consoleContainer.Position = UDim2.new(
         startPos.X.Scale, 
         startPos.X.Offset + delta.X, 
         startPos.Y.Scale, 
@@ -575,11 +575,12 @@ consoleHeader.InputBegan:Connect(function(input)
     if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
         dragging = true
         dragStart = input.Position
-        startPos = MainFrame.Position
+        startPos = consoleContainer.Position
         
         input.Changed:Connect(function()
             if input.UserInputState == Enum.UserInputState.End then
                 dragging = false
+                dragInput = nil
             end
         end)
     end
@@ -591,15 +592,9 @@ consoleHeader.InputChanged:Connect(function(input)
     end
 end)
 
-UserInputService.InputChanged:Connect(function(input)
+UIS.InputChanged:Connect(function(input)
     if input == dragInput and dragging then
         update(input)
-    end
-end)
-UIS.InputChanged:Connect(function(input)
-    if consoleDragging and input.UserInputType == Enum.UserInputType.MouseMovement then
-        local deltaX = input.Position.X - consoleDragStartX; local deltaY = input.Position.Y - consoleDragStartY
-        consoleContainer.Position = UDim2.new(0.5, consoleDragStartPosX + deltaX, 0.5, consoleDragStartPosY + deltaY)
     end
 end)
 
