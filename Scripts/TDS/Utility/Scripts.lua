@@ -5,7 +5,7 @@ return {
         description = "Allow you to record or play macros",
         is_premium = true,
         pinned = true,
-        image_id = "rbxassetid://130208192086629",
+        image_id = "rbxassetid://87833741091101",
         script_url = "https://raw.githubusercontent.com/Space-RB/Premium/refs/heads/main/Scripts/TDS/Scripts/PiadMacroRecorder.lua",
         details = {
             lvl = "any",
@@ -62,5 +62,21 @@ return {
             mode = "Special",
             difficult = "N/A"
         }
-    }
+    },
+    {
+        id = "5",
+        title = "Test 26.02.20",
+        description = "2.145",
+        is_premium = true,
+        pinned = false,
+        image_id = "rbxassetid://87833741091101",
+        script_url = "https://raw.githubusercontent.com/Space-RB/Premium/refs/heads/main/Scripts/TDS/Scripts/PaidMacroRecorderV2.lua",
+        details = {
+            lvl = "any",
+            towers = {"any"},
+            map = "any",
+            mode = "any",
+            difficult = "N/A"
+        }
+    },
 }
