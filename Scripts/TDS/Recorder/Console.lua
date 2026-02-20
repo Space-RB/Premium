@@ -556,21 +556,46 @@ webhookBox.FocusLost:Connect(function(enterPressed)
     if enterPressed then _G.Webhook = webhookBox.Text printToConsole("Webhook URL saved", "Success") end
 end)
 
-local consoleDragging = false
-local consoleDragStartX, consoleDragStartY
-local consoleDragStartPosX, consoleDragStartPosY
+local dragging
+local dragInput
+local dragStart
+local startPos
+
+local function update(input)
+    local delta = input.Position - dragStart
+    MainFrame.Position = UDim2.new(
+        startPos.X.Scale, 
+        startPos.X.Offset + delta.X, 
+        startPos.Y.Scale, 
+        startPos.Y.Offset + delta.Y
+    )
+end
 
 consoleHeader.InputBegan:Connect(function(input)
-    if input.UserInputType == Enum.UserInputType.MouseButton1 then
-        consoleDragging = true
-        consoleDragStartX = input.Position.X; consoleDragStartY = input.Position.Y
-        consoleDragStartPosX = consoleContainer.Position.X.Offset; consoleDragStartPosY = consoleContainer.Position.Y.Offset
-        local connection = input.Changed:Connect(function()
-            if input.UserInputState == Enum.UserInputState.End then consoleDragging = false if connection then connection:Disconnect() end end
+    if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+        dragging = true
+        dragStart = input.Position
+        startPos = MainFrame.Position
+        
+        input.Changed:Connect(function()
+            if input.UserInputState == Enum.UserInputState.End then
+                dragging = false
+            end
         end)
     end
 end)
 
+consoleHeader.InputChanged:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+        dragInput = input
+    end
+end)
+
+UserInputService.InputChanged:Connect(function(input)
+    if input == dragInput and dragging then
+        update(input)
+    end
+end)
 UIS.InputChanged:Connect(function(input)
     if consoleDragging and input.UserInputType == Enum.UserInputType.MouseMovement then
         local deltaX = input.Position.X - consoleDragStartX; local deltaY = input.Position.Y - consoleDragStartY
