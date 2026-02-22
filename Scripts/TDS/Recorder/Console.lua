@@ -71,12 +71,6 @@ local msgQ = {}
 local isBindingKey = false
 
 getgenv().ConsoleToggleKey = getgenv().ConsoleToggleKey or Enum.KeyCode.LeftControl
-_G.Webhook = getgenv().Webhook or ""
-
-if isfolder("Space-Hub/Games/") and isfile("Space-Hub/Additional/TDS-Webhook.json") then
-    local content = readfile("Space-Hub/Additional/TDS-Webhook.json")
-    if content then _G.Webhook = content end
-end
 
 local cGui = Instance.new("ScreenGui")
 cGui.Name = "SpaceHubConsole_" .. RandomString(8)
@@ -86,7 +80,7 @@ protect_gui(cGui)
 
 local consoleContainer = Instance.new("Frame")
 consoleContainer.Name = "MainContainer"
-consoleContainer.Size = UDim2.new(0, 550, 0, 400)
+consoleContainer.Size = UDim2.new(0, 550, 0, 325)
 consoleContainer.AnchorPoint = Vector2.new(0.5, 0.5)
 consoleContainer.Position = UDim2.new(0.5, 0, 0.5, 0)
 consoleContainer.BackgroundColor3 = cols.Pri
@@ -277,7 +271,7 @@ local buttonGap = 8
 
 local bindButton = Instance.new("TextButton")
 bindButton.Name = "BindBtn"
-bindButton.Size = UDim2.new(0.33, -buttonGap, 1, 0)
+bindButton.Size = UDim2.new(0.5, -buttonGap/2, 1, 0)
 bindButton.Position = UDim2.new(0, 0, 0, 0)
 bindButton.BackgroundColor3 = cols.Ter
 bindButton.Text = "[ " .. getKeyName(getgenv().ConsoleToggleKey) .. " ]"
@@ -298,8 +292,8 @@ bindStroke.Parent = bindButton
 
 local clearButton = Instance.new("TextButton")
 clearButton.Name = "ClearBtn"
-clearButton.Size = UDim2.new(0.33, -buttonGap, 1, 0)
-clearButton.Position = UDim2.new(0.33, buttonGap/2, 0, 0)
+clearButton.Size = UDim2.new(0.5, -buttonGap/2, 1, 0)
+clearButton.Position = UDim2.new(0.5, buttonGap/2, 0, 0)
 clearButton.BackgroundColor3 = cols.Sec
 clearButton.Text = "CLEAR"
 clearButton.TextColor3 = cols.Txt
@@ -310,126 +304,6 @@ clearButton.Parent = consoleControls
 local clearCorner = Instance.new("UICorner")
 clearCorner.CornerRadius = UDim.new(0, 8)
 clearCorner.Parent = clearButton
-
-local hideButton = Instance.new("TextButton")
-hideButton.Name = "HideBtn"
-hideButton.Size = UDim2.new(0.33, -buttonGap, 1, 0)
-hideButton.Position = UDim2.new(1-0.325, buttonGap/2, 0, 0)
-hideButton.BackgroundColor3 = cols.Err
-hideButton.Text = "HIDE"
-hideButton.TextColor3 = cols.Txt
-hideButton.TextSize = 14
-hideButton.Font = Enum.Font.GothamBold
-hideButton.Parent = consoleControls
-
-local hideCorner = Instance.new("UICorner")
-hideCorner.CornerRadius = UDim.new(0, 8)
-hideCorner.Parent = hideButton
-
-local webhookSection = Instance.new("Frame")
-webhookSection.Name = "WebhookSection"
-webhookSection.Size = UDim2.new(1, -24, 0, 68)
-webhookSection.Position = UDim2.new(0, 12, 0, 320)
-webhookSection.BackgroundColor3 = cols.Sec
-webhookSection.BorderSizePixel = 0
-webhookSection.Parent = consoleContainer
-
-local webhookCorner = Instance.new("UICorner")
-webhookCorner.CornerRadius = UDim.new(0, 10)
-webhookCorner.Parent = webhookSection
-
-local webhookHeader = Instance.new("TextLabel")
-webhookHeader.Name = "WebhookHeader"
-webhookHeader.Size = UDim2.new(1, -20, 0, 22)
-webhookHeader.Position = UDim2.new(0, 12, 0, 5)
-webhookHeader.BackgroundTransparency = 1
-webhookHeader.Text = "DISCORD WEBHOOK"
-webhookHeader.TextColor3 = cols.Txt
-webhookHeader.TextSize = 12
-webhookHeader.Font = Enum.Font.GothamBold
-webhookHeader.TextXAlignment = Enum.TextXAlignment.Left
-webhookHeader.Parent = webhookSection
-
-local webhookInputContainer = Instance.new("Frame")
-webhookInputContainer.Name = "WebhookInputContainer"
-webhookInputContainer.Size = UDim2.new(0.62, 0, 0, 32)
-webhookInputContainer.Position = UDim2.new(0, 12, 0, 30)
-webhookInputContainer.BackgroundColor3 = cols.Pri
-webhookInputContainer.BorderSizePixel = 0
-webhookInputContainer.Parent = webhookSection
-
-local inputCornerWebhook = Instance.new("UICorner")
-inputCornerWebhook.CornerRadius = UDim.new(0, 8)
-inputCornerWebhook.Parent = webhookInputContainer
-
-local webhookBox = Instance.new("TextBox")
-webhookBox.Name = "WebhookBox"
-webhookBox.Size = UDim2.new(1, -16, 1, 0)
-webhookBox.Position = UDim2.new(0, 8, 0, 0)
-webhookBox.BackgroundTransparency = 1
-webhookBox.TextColor3 = cols.Txt
-webhookBox.TextSize = 11
-webhookBox.Font = Enum.Font.Gotham
-webhookBox.PlaceholderText = "https://discord.com/api/webhooks/..."
-webhookBox.Text = _G.Webhook
-webhookBox.PlaceholderColor3 = cols.TxtDim
-webhookBox.ClearTextOnFocus = false
-webhookBox.TextXAlignment = Enum.TextXAlignment.Left
-webhookBox.Parent = webhookInputContainer
-webhookBox.TextWrapped = true
-webhookBox.TextScaled = true
-
-local webhookButtonsContainer = Instance.new("Frame")
-webhookButtonsContainer.Name = "WebhookButtons"
-webhookButtonsContainer.Size = UDim2.new(0.35, -12, 0, 32)
-webhookButtonsContainer.Position = UDim2.new(0.65, 0, 0, 30)
-webhookButtonsContainer.BackgroundTransparency = 1
-webhookButtonsContainer.Parent = webhookSection
-
-local saveWebhookBtn = Instance.new("TextButton")
-saveWebhookBtn.Name = "SaveWebhookBtn"
-saveWebhookBtn.Size = UDim2.new(0.32, 0, 1, 0)
-saveWebhookBtn.Position = UDim2.new(0, 0, 0, 0)
-saveWebhookBtn.BackgroundColor3 = cols.Acc
-saveWebhookBtn.Text = "SAVE"
-saveWebhookBtn.TextColor3 = cols.Txt
-saveWebhookBtn.TextSize = 11
-saveWebhookBtn.Font = Enum.Font.GothamBold
-saveWebhookBtn.Parent = webhookButtonsContainer
-
-local saveWebhookCorner = Instance.new("UICorner")
-saveWebhookCorner.CornerRadius = UDim.new(0, 6)
-saveWebhookCorner.Parent = saveWebhookBtn
-
-local testWebhookBtn = Instance.new("TextButton")
-testWebhookBtn.Name = "TestWebhookBtn"
-testWebhookBtn.Size = UDim2.new(0.32, 0, 1, 0)
-testWebhookBtn.Position = UDim2.new(0.34, 0, 0, 0)
-testWebhookBtn.BackgroundColor3 = cols.Deb
-testWebhookBtn.Text = "TEST"
-testWebhookBtn.TextColor3 = cols.Txt
-testWebhookBtn.TextSize = 11
-testWebhookBtn.Font = Enum.Font.GothamBold
-testWebhookBtn.Parent = webhookButtonsContainer
-
-local testWebhookCorner = Instance.new("UICorner")
-testWebhookCorner.CornerRadius = UDim.new(0, 6)
-testWebhookCorner.Parent = testWebhookBtn
-
-local sendWebhookBtn = Instance.new("TextButton")
-sendWebhookBtn.Name = "SendWebhookBtn"
-sendWebhookBtn.Size = UDim2.new(0.32, 0, 1, 0)
-sendWebhookBtn.Position = UDim2.new(0.68, 0, 0, 0)
-sendWebhookBtn.BackgroundColor3 = cols.Sys
-sendWebhookBtn.Text = "SEND"
-sendWebhookBtn.TextColor3 = cols.Txt
-sendWebhookBtn.TextSize = 11
-sendWebhookBtn.Font = Enum.Font.GothamBold
-sendWebhookBtn.Parent = webhookButtonsContainer
-
-local sendWebhookCorner = Instance.new("UICorner")
-sendWebhookCorner.CornerRadius = UDim.new(0, 6)
-sendWebhookCorner.Parent = sendWebhookBtn
 
 local function updateCanvasSize()
     local totalHeight = 0
@@ -484,55 +358,6 @@ local function toNumber(text)
     return numbers[1] or 0
 end
 
-getgenv().RewarmA = 0
-
-local function sendWebhook()
-    local webhook = _G.Webhook
-    if webhook == "" or not webhook then printToConsole("Webhook URL is empty", "Error") return false end
-    if not string.find(webhook, "https://discord.com/api/webhooks/") then printToConsole("Invalid webhook URL format", "Error") return false end
-    local playerName = lp.Name
-    local xprewardText = pgui.ReactGameNewRewards.Frame.gameOver.RewardsScreen.RewardsSection["1"].icon.icon.textLabel.Text
-    local rewardText = pgui.ReactGameNewRewards.Frame.gameOver.RewardsScreen.RewardsSection["2"].icon.icon.textLabel.Text
-    local rewardAAmount = toNumber(rewardText)
-    local rewardBAmount = toNumber(xprewardText)
-    getgenv().RewarmA = rewardAAmount or "N/A - Report this bug"
-    getgenv().RewarmB = rewardBAmount or "N/A - Report this bug"
-    local runTimeSeconds = tick() - stTime
-    local runTime = string.format("%02d:%02d:%02d", math.floor(runTimeSeconds / 3600), math.floor((runTimeSeconds % 3600) / 60), math.floor(runTimeSeconds % 60))
-    local embed = {
-        title = "⭐Space Hub - Macro Recorder", color = 0x8B00FF,
-        fields = {
-            {name = "👤Player", value = "```" .. playerName .. "```", inline = false},
-            {name = "🌌Received Value", value = "```" .. tostring(getgenv().RewarmA) .. "```", inline = true},
-            {name = "🌌XP Gained", value = "```" .. tostring(getgenv().RewarmB) .. "```", inline = true},
-            {name = "", inline = false},
-            {name = "Run Time", value = runTime, inline = true},
-            {name = "Local Time", value = os.date("%H:%M:%S"), inline = true}
-        }, footer = {text = "TDS Recorder | .gg/spacerb"}, timestamp = os.date("!%Y-%m-%dT%H:%M:%SZ")
-    }
-    local success, jsonData = pcall(HS.JSONEncode, HS, { username = ".gg/spacerb", embeds = {embed} })
-    if not success then printToConsole("JSON encoding failed", "Error") return false end
-    local httpRequest = (syn and syn.request) or (http and http.request) or http_request or request
-    if not httpRequest then printToConsole("HTTP request not available", "Error") return false end
-    local reqSuccess, response = pcall(httpRequest, { Url = webhook, Method = "POST", Headers = {["Content-Type"] = "application/json"}, Body = jsonData })
-    if reqSuccess and response and (response.StatusCode == 204 or response.StatusCode == 200) then printToConsole("Webhook sent successfully!", "Success") return true
-    else printToConsole("Webhook failed", "Error") return false end
-end
-
-local function testWebhook()
-    local webhook = _G.Webhook
-    if webhook == "" or not webhook then printToConsole("Webhook URL is empty", "Error") return false end
-    local originalText = testWebhookBtn.Text
-    testWebhookBtn.Text = "..."
-    local success, jsonData = pcall(HS.JSONEncode, HS, { content = "Webhook Test - Space Hub Console", username = "Space Hub Console", embeds = {{ title = "Test Message", description = "Webhook is working!", color = 0x8B00FF, footer = {text = "Space Hub"}, timestamp = os.date("!%Y-%m-%dT%H:%M:%SZ") }} })
-    if not success then testWebhookBtn.Text = originalText printToConsole("JSON encoding failed", "Error") return false end
-    local httpRequest = (syn and syn.request) or (http and http.request) or http_request or request
-    if not httpRequest then testWebhookBtn.Text = originalText printToConsole("HTTP request not available", "Error") return false end
-    local reqSuccess, response = pcall(httpRequest, { Url = webhook, Method = "POST", Headers = {["Content-Type"] = "application/json"}, Body = jsonData })
-    if reqSuccess and response and (response.StatusCode == 204 or response.StatusCode == 200) then testWebhookBtn.Text = "✓" printToConsole("Webhook test successful!", "Success") task.delay(1.5, function() testWebhookBtn.Text = originalText end) return true
-    else testWebhookBtn.Text = "✗" printToConsole("Webhook test failed", "Error") task.delay(1.5, function() testWebhookBtn.Text = originalText end) return false end
-end
-
 clearButton.MouseButton1Click:Connect(clearConsole)
 
 bindButton.MouseButton1Click:Connect(function()
@@ -540,20 +365,6 @@ bindButton.MouseButton1Click:Connect(function()
     isBindingKey = true
     bindButton.Text = "[ ... ]"
     bindButton.TextColor3 = cols.Warn
-end)
-
-saveWebhookBtn.MouseButton1Click:Connect(function()
-    _G.Webhook = webhookBox.Text
-    makefolder("Space-Hub"); makefolder("Space-Hub/Games"); makefolder("Space-Hub/Additional")
-    writefile("Space-Hub/Additional/TDS-Webhook.json", _G.Webhook)
-    printToConsole("Webhook URL saved", "Success")
-end)
-
-testWebhookBtn.MouseButton1Click:Connect(testWebhook)
-sendWebhookBtn.MouseButton1Click:Connect(sendWebhook)
-
-webhookBox.FocusLost:Connect(function(enterPressed)
-    if enterPressed then _G.Webhook = webhookBox.Text printToConsole("Webhook URL saved", "Success") end
 end)
 
 local dragging = false
@@ -618,24 +429,8 @@ task.spawn(function()
     end
 end)
 
-task.spawn(function()
-    local Workspace = game:GetService("Workspace")
-    while true do
-        if Workspace.Music.Value == "Lose" or Workspace.Triumph.Value == true then
-            pcall(sendWebhook)
-            break
-        end
-        task.wait(0.5)
-    end
-end)
-
 printToConsole("Space Hub Console initialized", "System")
 printToConsole("Press [ " .. getKeyName(getgenv().ConsoleToggleKey) .. " ] to toggle GUI", "Info")
-
-hideButton.MouseButton1Click:Connect(function()
-    cGui.Enabled = false
-    if _G.RecorderGui then _G.RecorderGui.Enabled = false end
-end)
 
 UIS.InputBegan:Connect(function(input, gameProcessed)
     if gameProcessed then return end
@@ -647,9 +442,8 @@ UIS.InputBegan:Connect(function(input, gameProcessed)
         return
     end
     if input.KeyCode == getgenv().ConsoleToggleKey then
-        local newState = not cGui.Enabled
-        cGui.Enabled = newState
-        if _G.RecorderGui then _G.RecorderGui.Enabled = newState end
+        cGui.Enabled = not cGui.Enabled
+        if _G.RecorderGui then _G.RecorderGui.Enabled = cGui.Enabled end
     end
 end)
 
