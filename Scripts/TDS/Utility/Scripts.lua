@@ -64,19 +64,35 @@ return {
         }
     },
     {
-        id = "5",
-        title = "Test 26.02.20",
-        description = "2.145",
-        is_premium = true,
+        id = "6",
+        title = "Auto Win Scout",
+        description = "If you want webhook, check discord",
+        is_premium = false,
         pinned = false,
         image_id = "rbxassetid://87833741091101",
-        script_url = "https://raw.githubusercontent.com/Space-RB/Premium/refs/heads/main/Scripts/TDS/Scripts/PaidMacroRecorderV2.lua",
+        script_url = "https://raw.githubusercontent.com/Space-RB/Premium/refs/heads/main/Scripts/TDS/Scripts/EasyMode.lua",
         details = {
             lvl = "any",
-            towers = {"any"},
-            map = "any",
-            mode = "any",
-            difficult = "N/A"
+            towers = {"Scout"},
+            map = "Simplicity",
+            mode = "Survival",
+            difficult = "Easy"
+        }
+    },
+    {
+        id = "7",
+        title = "Auto Win Shotgunner",
+        description = "If you want webhook, check discord",
+        is_premium = false,
+        pinned = false,
+        image_id = "rbxassetid://87833741091101",
+        script_url = "https://raw.githubusercontent.com/Space-RB/Premium/refs/heads/main/Scripts/TDS/Scripts/CasualMode.lua",
+        details = {
+            lvl = "any",
+            towers = {"Shotgunner"},
+            map = "Simplicity",
+            mode = "Survival",
+            difficult = "Casual"
         }
     },
 }
