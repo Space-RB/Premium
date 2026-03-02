@@ -10,5 +10,6 @@ local BoosterKeys = {
  ["xb6qu1mzo90fsfy0r9od3qdudbh939y1"] = "1367E586F2FCC9347AE7A8424EC5B3", -- 1213355725087313991 / 14d / 10.03.2026
  ["6wai52jwqupnht18jhv7vjliypfc6we8"] = "372BA1C1C9309355717D3A46A0F446", -- 1172223881122152540 / 28d / 27.03.2026
  ["60alx7psda7qnypjda9ozwvxis8rymrx"] = "c50050b25e912641b99f965028bf3623cb44ccbddd09cce4cabe4f03c00c7e70", -- 1341458152050130944 / 28d / 28.03.2026
+ ["vqoisktj5wi915vg6bfaxfmwmz99a9ed"] = "8ecda567e7e86b7972db06cef3745a0d95fa3fdb2191b394336bb61b9cb1bbcc", -- 639021555883573248 / 14d / 16.03.2026
 }
 return BoosterKeys;
