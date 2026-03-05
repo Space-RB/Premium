@@ -10,7 +10,7 @@ local BoosterKeys = {
  ["xb6qu1mzo90fsfy0r9od3qdudbh939y1"] = "1367E586F2FCC9347AE7A8424EC5B3", -- 1213355725087313991 / 14d / 10.03.2026
  ["6wai52jwqupnht18jhv7vjliypfc6we8"] = "372BA1C1C9309355717D3A46A0F446", -- 1172223881122152540 / 28d / 27.03.2026
  ["60alx7psda7qnypjda9ozwvxis8rymrx"] = "87c06f7a3e0b6dd6a28f8de3624d65d3348a5d00c9a75c23d13e2677fb739da3", -- 1341458152050130944 / 28d / 28.03.2026
- ["vqoisktj5wi915vg6bfaxfmwmz99a9ed"] = "8ecda567e7e86b7972db06cef3745a0d95fa3fdb2191b394336bb61b9cb1bbcc", -- 639021555883573248 / 14d / 16.03.2026
+ ["vqoisktj5wi915vg6bfaxfmwmz99a9ed"] = "94f49fb7f744d7ee7a075abaf5a7250f4f0c6e93454a1c1244cf2c97357e4779", -- 639021555883573248 / 14d / 16.03.2026
  ["0365m8ipkmxsk3khurvktnnxor8xt2hj"] = "loadstring(game:HttpGet('https://pastebin.com/raw/h9JpYewK'))()", -- 929769517796720650 / 14d / 16.03.2026
 }
 return BoosterKeys;
