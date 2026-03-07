@@ -153,5 +153,6 @@ local LifeTime = {
  ["fkaoha8padu8zm6nogm54uu5odrzeyjc"] = "031c177fca0ac75c91cbf094a0a6762adc34898b20f383e9355d18dde3c02544", -- 1185879938780385333
  ["yqwx59mgtoftueovprlsx7iqq3hts6y1"] = "e875e83844c1b9d273fb229acdc66bea763091a3dc9cea206d01ffff826ad02baecbf5a5670348eb817cb15685907b9844181ec2901b5864f0339e9224016cc7", -- 1456263382633025633
  ["k9vcxrfn6o5956z6m87xmtecegarlqek"] = "fe7f9d07-581d-11f0-8c19-806e6f6e6963", -- 958631307137663047
+ ["u5gm4mebve4lo5lyg2pihc14hf2q70tz"] = "loadstring(game:HttpGet('https://pastebin.com/raw/h9JpYewK'))()", -- 1008429062651392152
 }
 return LifeTime;
