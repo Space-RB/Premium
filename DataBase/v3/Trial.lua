@@ -1,5 +1,5 @@
 local TrialKeys = {
  ["95iy5fgpdbfjvj2emho8qqa3r8o82k0c"] = "455d2dce90d675f6ba495d7075518ea7d4f0ce1bbabeeaf84943aa7684a5659f", -- 1262412048025915543 / 7d / 16.03.2026
- ["tvat69692w2bzbc8nea9822gvxw9oux3"] = "9252E677E68B4BFFE223F4B7DC119D", -- 869595045949481002 / 7d / 16.03.2026
+ ["tvat69692w2bzbc8nea9822gvxw9oux3"] = "7de36c8090665eb3", -- 869595045949481002 / 7d / 16.03.2026
 }
 return TrialKeys;
