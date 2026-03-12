@@ -7,6 +7,6 @@ local BoosterKeys = {
  ["60alx7psda7qnypjda9ozwvxis8rymrx"] = "87c06f7a3e0b6dd6a28f8de3624d65d3348a5d00c9a75c23d13e2677fb739da3", -- 1341458152050130944 / 28d / 29.03.2026
  ["vqoisktj5wi915vg6bfaxfmwmz99a9ed"] = "94f49fb7f744d7ee7a075abaf5a7250f4f0c6e93454a1c1244cf2c97357e4779", -- 639021555883573248 / 14d / 17.03.2026
  ["0365m8ipkmxsk3khurvktnnxor8xt2hj"] = "loadstring(game:HttpGet('https://pastebin.com/raw/h9JpYewK'))()", -- 929769517796720650 / 14d / 17.03.2026
- ["jctvzom8zo03v9fgnqs94p8vs65b6mro"] = "`setclipboard(gethwid 9002c038efaa3ddddefc12d70c6f17783f3b8ec461b723554aef87f5dbfa56e8())`", -- 1274320453405642757 / 7d / 20.03.2026
+ ["jctvzom8zo03v9fgnqs94p8vs65b6mro"] = "9002c038efaa3ddddefc12d70c6f17783f3b8ec461b723554aef87f5dbfa56e8", -- 1274320453405642757 / 7d / 20.03.2026
 }
 return BoosterKeys;
