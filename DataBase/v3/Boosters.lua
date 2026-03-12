@@ -7,6 +7,5 @@ local BoosterKeys = {
  ["60alx7psda7qnypjda9ozwvxis8rymrx"] = "87c06f7a3e0b6dd6a28f8de3624d65d3348a5d00c9a75c23d13e2677fb739da3", -- 1341458152050130944 / 28d / 28.03.2026
  ["vqoisktj5wi915vg6bfaxfmwmz99a9ed"] = "94f49fb7f744d7ee7a075abaf5a7250f4f0c6e93454a1c1244cf2c97357e4779", -- 639021555883573248 / 14d / 16.03.2026
  ["0365m8ipkmxsk3khurvktnnxor8xt2hj"] = "loadstring(game:HttpGet('https://pastebin.com/raw/h9JpYewK'))()", -- 929769517796720650 / 14d / 16.03.2026
- ["3e1qi2t0tk4p0pqmwh7r8jy75afwepsx"] = "e9506638279bb1f7cde709ff93bdc199b4c22f21a8a38112e95cb1630097a11d", -- 1223197040637513748 / 7d / 12.03.2026
 }
 return BoosterKeys;
