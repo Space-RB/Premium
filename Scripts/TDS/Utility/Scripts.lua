@@ -1,9 +1,114 @@
 return {
-    {id="550e8400-e29b-41d4-a716-446655440000",title="Macro Recorder",description="Allow you to record or play macros",is_premium=true,pinned=true,image_id="rbxassetid://87833741091101",script_url="https://raw.githubusercontent.com/Space-RB/Premium/refs/heads/main/Scripts/TDS/Scripts/PiadMacroRecorder.lua",details={lvl="any",towers={"any"},map="any",mode="any",difficult="N/A"}},
-    {id="6ba7b810-9dad-11d1-80b4-00c04fd430c8",title="Macro Recorder V2",description="Allow you to record or play macros",is_premium=true,pinned=true,image_id="rbxassetid://87833741091101",script_url="https://raw.githubusercontent.com/Space-RB/Premium/refs/heads/main/Scripts/TDS/Scripts/PaidMacroRecorderV2.lua",details={lvl="any",towers={"any"},map="any",mode="any",difficult="N/A"}},
-    {id="7c9e6679-7425-40de-944b-e07fc1f90ae7",title="Auto Money",description="Pizza Party Strat to AFK Grind Money",is_premium=true,pinned=true,image_id="rbxassetid://87833741091101",script_url="https://raw.githubusercontent.com/Space-RB/Premium/refs/heads/main/Scripts/TDS/Scripts/PaidPizzaParty.lua",details={lvl=25,towers={"Assassin","Hunter"},map="Pizza Party",mode="Special",difficult="N/A"}},
-    {id="f47ac10b-58cc-4372-a567-0e02b2c3d479",title="Auto Gems",description="Hardcore Strat to AFK Grind Gems",is_premium=true,pinned=false,image_id="rbxassetid://87833741091101",script_url="https://raw.githubusercontent.com/Space-RB/Premium/refs/heads/main/Scripts/TDS/Scripts/PaidAutoGems.lua",details={lvl=50,towers={"Pyromancer","Ace Pilot"},map="Crossroads",mode="Hardcore",difficult="N/A"}},
-    {id="9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",title="Auto Money Free",description="Pizza Party Strat to AFK Grind Money",is_premium=false,pinned=true,image_id="rbxassetid://87833741091101",script_url="https://raw.githubusercontent.com/Space-RB/Premium/refs/heads/main/Scripts/TDS/Scripts/FreePizzaParty.lua",details={lvl=25,towers={"Shotgunner","Trapper"},map="Pizza Party",mode="Special",difficult="N/A"}},
-    {id="1b9d6bcd-bbfd-4b2d-9b5d-ab18dfc9ddf9",title="Auto Win Scout",description="If you want webhook, check discord",is_premium=false,pinned=false,image_id="rbxassetid://87833741091101",script_url="https://raw.githubusercontent.com/Space-RB/Premium/refs/heads/main/Scripts/TDS/Scripts/EasyMode.lua",details={lvl="any",towers={"Scout"},map="Simplicity",mode="Survival",difficult="Easy"}},
-    {id="123e4567-e89b-12d3-a456-426614174000",title="Auto Win Shotgunner",description="If you want webhook, check discord",is_premium=false,pinned=false,image_id="rbxassetid://87833741091101",script_url="https://raw.githubusercontent.com/Space-RB/Premium/refs/heads/main/Scripts/TDS/Scripts/CasualMode.lua",details={lvl="any",towers={"Shotgunner"},map="Simplicity",mode="Survival",difficult="Casual"}}
+    {
+        id = "550e8400-e29b-41d4-a716-446655440000",
+        title = "Macro Recorder",
+        description = "Allow you to record or play macros (based on time)",
+        is_premium = true,
+        pinned = false,
+        image_id = "rbxassetid://87833741091101",
+        script_url = "https://raw.githubusercontent.com/Space-RB/Premium/refs/heads/main/Scripts/TDS/Scripts/PiadMacroRecorder.lua",
+        details = {
+            lvl = "any",
+            towers = { "any" },
+            map = "any",
+            mode = "any",
+            difficult = "N/A"
+        }
+    },
+    {
+        id = "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
+        title = "Macro Recorder V2",
+        description = "Allow you to record or play macros (See API Docs in our discord!)",
+        is_premium = true,
+        pinned = true,
+        image_id = "rbxassetid://87833741091101",
+        script_url = "https://raw.githubusercontent.com/Space-RB/Premium/refs/heads/main/Scripts/TDS/Scripts/PaidMacroRecorderV2.lua",
+        details = {
+            lvl = "any",
+            towers = { "any" },
+            map = "any",
+            mode = "any",
+            difficult = "N/A"
+        }
+    },
+    {
+        id = "7c9e6679-7425-40de-944b-e07fc1f90ae7",
+        title = "Auto Money",
+        description = "Pizza Party Strat to AFK Grind Money",
+        is_premium = true,
+        pinned = true,
+        image_id = "rbxassetid://87833741091101",
+        script_url = "https://raw.githubusercontent.com/Space-RB/Premium/refs/heads/main/Scripts/TDS/Scripts/PaidPizzaParty.lua",
+        details = {
+            lvl = 25,
+            towers = { "Assassin", "Hunter" },
+            map = "Pizza Party",
+            mode = "Special",
+            difficult = "N/A"
+        }
+    },
+    {
+        id = "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+        title = "Auto Gems",
+        description = "Hardcore Strat to AFK Grind Gems",
+        is_premium = true,
+        pinned = false,
+        image_id = "rbxassetid://87833741091101",
+        script_url = "https://raw.githubusercontent.com/Space-RB/Premium/refs/heads/main/Scripts/TDS/Scripts/PaidAutoGems.lua",
+        details = {
+            lvl = 50,
+            towers = { "Pyromancer", "Ace Pilot" },
+            map = "Crossroads",
+            mode = "Hardcore",
+            difficult = "N/A"
+        }
+    },
+    {
+        id = "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
+        title = "Auto Money Free",
+        description = "Pizza Party Strat to AFK Grind Money (May has bugs)",
+        is_premium = false,
+        pinned = true,
+        image_id = "rbxassetid://87833741091101",
+        script_url = "https://raw.githubusercontent.com/Space-RB/Premium/refs/heads/main/Scripts/TDS/Scripts/FreePizzaParty.lua",
+        details = {
+            lvl = 25,
+            towers = { "Shotgunner", "Trapper" },
+            map = "Pizza Party",
+            mode = "Special",
+            difficult = "N/A"
+        }
+    },
+    {
+        id = "1b9d6bcd-bbfd-4b2d-9b5d-ab18dfc9ddf9",
+        title = "Auto Win Scout",
+        description = "If you want webhook stats, check discord",
+        is_premium = false,
+        pinned = false,
+        image_id = "rbxassetid://87833741091101",
+        script_url = "https://raw.githubusercontent.com/Space-RB/Premium/refs/heads/main/Scripts/TDS/Scripts/EasyMode.lua",
+        details = {
+            lvl = "any",
+            towers = { "Scout" },
+            map = "Simplicity",
+            mode = "Survival",
+            difficult = "Easy"
+        }
+    },
+    {
+        id = "123e4567-e89b-12d3-a456-426614174000",
+        title = "Auto Win Shotgunner",
+        description = "If you want webhook stats, check discord",
+        is_premium = false,
+        pinned = false,
+        image_id = "rbxassetid://87833741091101",
+        script_url = "https://raw.githubusercontent.com/Space-RB/Premium/refs/heads/main/Scripts/TDS/Scripts/CasualMode.lua",
+        details = {
+            lvl = "any",
+            towers = { "Shotgunner" },
+            map = "Simplicity",
+            mode = "Survival",
+            difficult = "Casual"
+        }
+    }
 }
