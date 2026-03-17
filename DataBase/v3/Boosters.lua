@@ -5,7 +5,6 @@ local BoosterKeys = {
  ["l6tvl3u0pss5xcdanu9o1lnjgn90h41v"] = "b5f7fefb6bfde27a60d74a6ffbe2b7b921ce18cfb328bc25cf702cc8d6796056", -- 1387552151106224445 / 28d / 24.03.2026
  ["6wai52jwqupnht18jhv7vjliypfc6we8"] = "372BA1C1C9309355717D3A46A0F446", -- 1172223881122152540 / 28d / 28.03.2026
  ["60alx7psda7qnypjda9ozwvxis8rymrx"] = "87c06f7a3e0b6dd6a28f8de3624d65d3348a5d00c9a75c23d13e2677fb739da3", -- 1341458152050130944 / 28d / 29.03.2026
- ["0365m8ipkmxsk3khurvktnnxor8xt2hj"] = "loadstring(game:HttpGet('https://pastebin.com/raw/h9JpYewK'))()", -- 929769517796720650 / 14d / 17.03.2026
  ["jctvzom8zo03v9fgnqs94p8vs65b6mro"] = "9002c038efaa3ddddefc12d70c6f17783f3b8ec461b723554aef87f5dbfa56e8", -- 1274320453405642757 / 7d / 20.03.2026
  ["rxzxsqrs92p26n14ub30rc5j2bhw4o17"] = "81b46ba55bdc3f8ab8a447d25f9bbf65e32f51166c4ad2a6028bdf70c40ede35", -- 531772731000225792 / 14d / 26.03.2026
  ["hby6dpe1r3lwyduklhvb4rkrjxx8vglj"] = "9cb00f13e610a3aa9079e2fda369423e17afad747482ae1a21b6185348674f36", -- 1319290017293533235 / 7d / 20.03.2026
