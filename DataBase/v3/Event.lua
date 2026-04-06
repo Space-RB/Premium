@@ -8,6 +8,6 @@ local EventKeys = {
  ["GuNLBi7pVLz3ahka4EnEanQErFChPeMs"] = "d832d8bc-df29-11ef-9ae4-806e6f6e6963", -- 859126933370699816 / lifetime
  ["fp9kpQ8r8lNArmRFSJ4iAoopayc6cvwE"] = "0cf61748-5f05-11f0-9b77-806e6f6e6963", -- 1270943340451594251 / lifetime
  ["79rcv33n1ddq3axvfhr5td6q2pgs9t2v"] = "8e14597d-b3fe-11f0-8ac8-806e6f6e6963", -- 1136035567897956524 / 7d / 13.04.2026
- ["2fj97ug8z9d2gpa8vybf4fr25d4of9gx"] = "b69e740c0164132e67a18bce4e99539b5a60a665ec85bdec213e3f3be754023d", -- 264634879541641219 / 3 / 09.04.2026
+ ["2fj97ug8z9d2gpa8vybf4fr25d4of9gx"] = "2986b03bc897574cc53a1c6d3c920e697f9b0dec9f5b416ab8e01745f8694cd0", -- 264634879541641219 / 3 / 09.04.2026
 }
 return EventKeys;
