@@ -7,5 +7,6 @@ local EventKeys = {
  ["TJEhD6w4SMWAxqFFFDNJBWER4NrfbIHL"] = "a4dc9744-3014-11ec-90a8-806e6f6e6963", -- 1064982220441407578 / lifetime
  ["GuNLBi7pVLz3ahka4EnEanQErFChPeMs"] = "d832d8bc-df29-11ef-9ae4-806e6f6e6963", -- 859126933370699816 / lifetime
  ["fp9kpQ8r8lNArmRFSJ4iAoopayc6cvwE"] = "0cf61748-5f05-11f0-9b77-806e6f6e6963", -- 1270943340451594251 / lifetime
+ ["79rcv33n1ddq3axvfhr5td6q2pgs9t2v"] = "8e14597d-b3fe-11f0-8ac8-806e6f6e6963", -- 1136035567897956524 / 7d / 13.04.2026
 }
 return EventKeys;
