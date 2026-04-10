@@ -132,7 +132,7 @@ local Keys = {
         time = "lifetime",
     },
     ["156wvpzarpcfx9bfeuya43kapwk3fpg9"] = {
-        hwid = "fawvscgvawsgvwa",
+        hwid = "h89vah9a8whnv9iow8ahnjv",
         type = "Premium",
         user = "702417939000721421",
         time = "2026-04-11T17:23:01.519521+00:00",
