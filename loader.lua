@@ -20,4 +20,4 @@ if not script_key then
 end;
 
 getgenv().Key = script_key;
-loadstring(game:HttpGet("https://f.space-hub.cc/Premium/Loader.lua"))()
+loadstring(game:HttpGet("https://f.space-hub.cc/premium-loader.lua"))()
