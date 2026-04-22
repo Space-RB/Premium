@@ -1325,5 +1325,11 @@ local Keys = {
         user = "960569613849092186",
         time = 1778694520,
     },
+    ["thhfrh5qnvmz83sogogguw0epfdvqdiw"] = {
+        hwid = "4cf255a53a8ef7a52d7882aacdd43d5974daf59212fbc3a20bb63ebac9918c97",
+        type = "Premium",
+        user = "1482727755144757248",
+        time = 1777465595,
+    },
 }
 return Keys;
