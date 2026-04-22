@@ -137,12 +137,6 @@ local Keys = {
         user = "702417939000721421",
         time = 1777482138,
     },
-    ["6xn50596p0s75bsbip0nf52qcp9dz32k"] = {
-        hwid = "fe441eafbf452a448dbcb709e78fc3dfe30bc369a44839b72f707a33e2e2307afb168bf8d99525d75f4f658518e2305d5be495620a2b906939e988662d63f3a2",
-        type = "Event",
-        user = "702417939000721421",
-        time = 1778657099,
-    },
     ["d686993356d1242eeb0145e72df57900"] = {
         hwid = "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
         type = "Premium",
