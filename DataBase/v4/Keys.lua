@@ -1097,12 +1097,6 @@ local Keys = {
         user = "854446707626475522",
         time = "lifetime",
     },
-    ["atzwm9oxdasqnq3t6fihkhwe34hzaqn4"] = {
-        hwid = "14788c9df2fad1210bb8f1f9e56082f2dab98969de811d7fae4c983dd4d9615c",
-        type = "Premium",
-        user = "1137941361463672925",
-        time = "lifetime",
-    },
     ["ib9r82t7xh4ydg3upud6ofi4ids44teh"] = {
         hwid = "afa1f23d0b520ba3eb8c711015ffb06f5517da67607fbaa534b3403a8ba9a094",
         type = "Booster",
