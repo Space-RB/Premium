@@ -1,3 +1,4 @@
+task.wait(math.random(10,55)/100)
 repeat task.wait(0.1) until game:IsLoaded()
 print("[Space Hub]: Premium Script Loading...")
 
@@ -21,4 +22,4 @@ end
 
 getgenv().Key = providedKey
 _G.Key = providedKey
-loadstring(game:HttpGet("https://f.space-hub.cc/Premium.lua"))()
+loadstring(game:HttpGet("https://f.space-hub.cc/Premium-OBF.lua"))()
